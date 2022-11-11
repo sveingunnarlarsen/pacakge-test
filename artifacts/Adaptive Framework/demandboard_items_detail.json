@@ -1,0 +1,339 @@
+{
+	"id": "a24314c9-cc27-45cf-a247-1fe7b2facd30",
+	"createdAt": "2022-11-05T07:54:24.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Attention",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"title": "Demand Board",
+				"subTitle": "",
+				"avatarIcon": "sap-icon://customer-order-entry",
+				"actionButtonLeft": false,
+				"tabAttachmentText": "Attachment",
+				"enableAttachment": true,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"enableDelete": true,
+				"iconButtonAttachment": "sap-icon://upload-to-cloud",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableUppercase": true,
+				"enablePadding": false
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": false,
+				"formLayout": "ResponsiveGridLayout",
+				"labelSpanL": "12",
+				"labelSpanM": "12",
+				"columnsL": "3",
+				"columnsM": "2",
+				"field1ReadOnly": "Status",
+				"operator1ReadOnly": "!==",
+				"value1ReadOnly": "New Demand",
+				"field2ReadOnly": "createdBy",
+				"operator2ReadOnly": "!==",
+				"value2ReadOnly": "",
+				"sysvar2ReadOnly": "UserName",
+				"script1ReadOnly": null,
+				"labelDesign": "Standard"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "Budget",
+				"label": "Budget Available",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Category",
+				"label": "Product Category",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CostCentre",
+				"label": "Cost Centre/Co-Assignment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Plant",
+				"label": "Charged to Plant",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Price",
+				"label": "Price Information",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Product",
+				"label": "Product Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Quantity",
+				"label": "Quantity",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Reason",
+				"label": "Reason for Use-Justification",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "StartDate",
+				"label": "Contract Start Date",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TimePeriod",
+				"label": "Time Period",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": true,
+				"name": "Product",
+				"text": "Product Name",
+				"fieldPos": 1,
+				"required": true,
+				"columnLabel": " ",
+				"description": "Enter the SAP Product that will be ordered"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "Category",
+				"text": "Product Category",
+				"fieldPos": 2,
+				"type": "SingleSelectLookup",
+				"lookupTable": "demandboard_category",
+				"lookupFieldKey": "name",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true,
+				"required": true,
+				"description": "Please choose the category of the product"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "Reason",
+				"text": "Reason for Use-Justification",
+				"fieldPos": 3,
+				"required": true,
+				"type": "TextArea",
+				"textAreaRows": "7",
+				"description": "Please specify the reason why you are ordering this product"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "StartDate",
+				"text": "Contract Start Date",
+				"fieldPos": 4,
+				"type": "DatePicker",
+				"description": "Please specify service go-live date",
+				"columnLabel": " "
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "Price",
+				"text": "Price Information (EUR)",
+				"fieldPos": 5,
+				"description": "Please indicate the price per unit, if it is known",
+				"columnLabel": ""
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "Quantity",
+				"text": "Quantity",
+				"fieldPos": 6,
+				"required": true,
+				"description": "Enter product quantity that will be ordered"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "TimePeriod",
+				"text": "Time Period",
+				"fieldPos": 7,
+				"description": "If you are requesting a max-Attention, Cloud Product, then enter the requested time period in months"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "Status",
+				"text": "Status",
+				"fieldPos": 8,
+				"type": "SingleSelectLookup",
+				"lookupTable": "demandboard_status",
+				"lookupFieldKey": "name",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true,
+				"default": "",
+				"columnLabel": " ",
+				"description": "Status of the request"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "Plant",
+				"text": "Charged to Plant",
+				"fieldPos": 9,
+				"required": true,
+				"description": "Wich plant will the product be charged to ?"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "CostCentre",
+				"text": "Cost Centre/Co-Assignment",
+				"fieldPos": 10,
+				"description": "Charged to IT Cost Center"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "Budget",
+				"text": "Budget Available",
+				"fieldPos": 11,
+				"type": "Switch",
+				"description": "Set to \"yes\" if the budget is confirmed by E3 manager"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Updated At",
+				"fieldPos": 12,
+				"type": "DateTimePicker",
+				"enableNewForm": true,
+				"columnsL": "2",
+				"columnsM": "2",
+				"labelSpanL": "12",
+				"labelSpanM": "12",
+				"columnLabel": "Updated"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "Updated By",
+				"fieldPos": 13
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "createdAt",
+				"text": "Created At",
+				"fieldPos": 14,
+				"columnLabel": "Created",
+				"type": "DateTimePicker"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "createdBy",
+				"text": "Created By",
+				"fieldPos": 15
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "18a213cb-85fe-4217-fbbd-f8d0ac299664",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "demandboard_items_detail",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.11.9.1029",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

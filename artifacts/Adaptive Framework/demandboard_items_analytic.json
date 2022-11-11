@@ -1,0 +1,274 @@
+{
+	"id": "1f7669fb-b53a-4fe5-8690-1b60c6848050",
+	"createdAt": "2022-11-05T07:39:39.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Attention",
+				"enableValues": true,
+				"enableLeftPanel": true,
+				"enableRightPanel": true,
+				"enableVariant": true,
+				"showLeftPanel": true,
+				"showRightPanel": true,
+				"enableClose": true,
+				"autoRun": true,
+				"title": "Demand Board"
+			},
+			"form": {},
+			"table": {
+				"showRowTotal": true,
+				"showColTotal": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "Product",
+				"label": "Product Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Category",
+				"label": "Product Category",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TimePeriod",
+				"label": "Time Period",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "StartDate",
+				"label": "Contract Start Date",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Quantity",
+				"label": "Quantity",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Price",
+				"label": "Price Information",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Reason",
+				"label": "Reason for Use-Justification",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Budget",
+				"label": "Budget Available",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Plant",
+				"label": "Charged to Plant",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CostCentre",
+				"label": "Cost Centre/Co-Assignment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "Category",
+				"text": "Product Category",
+				"fieldPos": 1,
+				"type": "MultiSelectLookup",
+				"lookupTable": "demandboard_category",
+				"lookupFieldKey": "name",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true,
+				"columnLabel": "Selection"
+			},
+			{
+				"visible": true,
+				"name": "Status",
+				"text": "Status",
+				"fieldPos": 2,
+				"type": "MultiSelectLookup",
+				"lookupTable": "demandboard_status",
+				"lookupFieldKey": "name",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true,
+				"default": ""
+			}
+		],
+		"fieldsRun": [
+			{
+				"filter": true,
+				"name": "Product",
+				"text": "Product Name",
+				"fieldPos": 3
+			},
+			{
+				"filter": true,
+				"name": "Category",
+				"text": "Product Category",
+				"fieldPos": 4
+			},
+			{
+				"filter": true,
+				"name": "TimePeriod",
+				"text": "Time Period",
+				"fieldPos": 5
+			},
+			{
+				"filter": true,
+				"name": "StartDate",
+				"text": "Contract Start Date",
+				"fieldPos": 6
+			},
+			{
+				"filter": true,
+				"name": "Reason",
+				"text": "Reason for Use-Justification",
+				"fieldPos": 7
+			},
+			{
+				"filter": true,
+				"name": "Budget",
+				"text": "Budget Available",
+				"enableFilter": false,
+				"fieldPos": 8
+			},
+			{
+				"filter": true,
+				"name": "Status",
+				"text": "Status",
+				"fieldPos": 9
+			},
+			{
+				"filter": true,
+				"name": "CostCentre",
+				"text": "Cost Centre/Co-Assignment",
+				"fieldPos": 10
+			},
+			{
+				"filter": true,
+				"name": "Plant",
+				"text": "Charged to Plant",
+				"fieldPos": 11
+			},
+			{
+				"filter": true,
+				"name": "Price",
+				"text": "Price Information",
+				"enableFilter": false,
+				"fieldPos": 12
+			},
+			{
+				"filter": true,
+				"name": "updatedBy",
+				"text": "Updated By",
+				"fieldPos": 13
+			}
+		],
+		"defaultVariant": {
+			"id": "e777691d-7e79-4429-ed92-76e64268f406",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [
+				{
+					"filter": true,
+					"name": "Category",
+					"text": "Product Category",
+					"fieldPos": 4,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"column": [
+				{
+					"filter": true,
+					"name": "Status",
+					"text": "Status",
+					"fieldPos": 9,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"val": [
+				{
+					"filter": true,
+					"name": "Price",
+					"text": "Price Information",
+					"enableFilter": false,
+					"fieldPos": 12,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"inclusions": {},
+			"exclusions": {},
+			"rendererName": "Table",
+			"aggregatorName": "Integer Sum"
+		},
+		"id": "1f7669fb-b53a-4fe5-8690-1b60c6848050"
+	},
+	"name": "demandboard_items_analytic",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.11.6.1857",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_bi",
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

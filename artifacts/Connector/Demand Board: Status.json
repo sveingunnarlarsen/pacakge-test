@@ -1,0 +1,17 @@
+{
+	"id": "7314ef49-8474-48cd-9cb9-3895d2b13ce3",
+	"createdAt": "2022-11-05T05:50:52.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "ad54a8d9-fe29-4a4c-bb7b-c5e97769397e",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Demand Board: Status",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "22.11.5.650",
+	"disabled": false,
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
+}

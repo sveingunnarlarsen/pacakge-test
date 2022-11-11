@@ -1,0 +1,433 @@
+{
+	"id": "b19b93f9-3c3e-4333-a368-9cd6fc02bf8f",
+	"createdAt": "2022-11-05T05:57:26.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Attention",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Demand Board",
+				"subTitle": "new item or edit this list",
+				"avatarIcon": "sap-icon://request",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "a24314c9-cc27-45cf-a247-1fe7b2facd30",
+					"keyField": [
+						{
+							"fieldName": "Status",
+							"key": "",
+							"value": "New Demand"
+						}
+					]
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "a24314c9-cc27-45cf-a247-1fe7b2facd30",
+					"keyField": []
+				},
+				"actionButtonLeft": false,
+				"avatarBackgroundColor": "Accent7"
+			},
+			"form": {
+				"enableCompact": true,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": true,
+				"paginationShowSelection": true,
+				"paginationRows": "20",
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"showSeparators": "All",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"_action1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Default"
+				}
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "Budget",
+				"label": "Budget Available",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Category",
+				"label": "Product Category",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CostCentre",
+				"label": "Cost Centre/Co-Assignment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Plant",
+				"label": "Charged to Plant",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Price",
+				"label": "Price Information",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Product",
+				"label": "Product Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Quantity",
+				"label": "Quantity",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Reason",
+				"label": "Reason for Use-Justification",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "StartDate",
+				"label": "Contract Start Date",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TimePeriod",
+				"label": "Time Period",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "Status",
+				"text": "Status",
+				"fieldPos": 1,
+				"type": "MultiSelectLookup",
+				"lookupTable": "demandboard_status",
+				"lookupFieldKey": "name",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "Category",
+				"text": "Category",
+				"fieldPos": 2,
+				"type": "MultiSelectLookup",
+				"lookupTable": "demandboard_category",
+				"lookupFieldKey": "name",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": false,
+				"name": "Reason",
+				"text": "Reason for Use-Justification",
+				"fieldPos": 3
+			},
+			{
+				"visible": true,
+				"name": "StartDate",
+				"text": "Start Date",
+				"fieldPos": 4,
+				"type": "DateRange"
+			},
+			{
+				"visible": false,
+				"name": "createdBy",
+				"text": "Created By",
+				"fieldPos": 5,
+				"default": "",
+				"sysvarValue": "UserName"
+			}
+		],
+		"fieldsRun": [
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Product",
+				"text": "Product",
+				"fieldPos": 6,
+				"width": "",
+				"wrapping": true,
+				"vAlign": ""
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Category",
+				"text": "Category",
+				"fieldPos": 7,
+				"enableGroup": true,
+				"vAlign": "",
+				"type": "",
+				"editable": true,
+				"lookupTable": "demandboard_category",
+				"lookupFieldKey": "name",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "TimePeriod",
+				"text": "Time Period",
+				"fieldPos": 8,
+				"wrapping": true,
+				"vAlign": "",
+				"minScreenWidth": "1920px"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "StartDate",
+				"text": "Start Date",
+				"fieldPos": 9,
+				"vAlign": "",
+				"formatter": "date01",
+				"minScreenWidth": "XXLarge"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Reason",
+				"text": "Reason for Use-Justification",
+				"fieldPos": 10,
+				"wrapping": true,
+				"width": "400px",
+				"minScreenWidth": "2560px"
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "Quantity",
+				"text": "Quantity",
+				"fieldPos": 11,
+				"hAlign": "End",
+				"width": "",
+				"vAlign": "",
+				"minScreenWidth": "1440px"
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "Price",
+				"text": "Price",
+				"fieldPos": 12,
+				"type": "ObjectNumber",
+				"editable": true,
+				"width": "",
+				"numberUnitType": "Fixed",
+				"numberUnitFixed": "EUR",
+				"hAlign": "End",
+				"formatter": "number03",
+				"vAlign": "",
+				"minScreenWidth": "1440px"
+			},
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "Budget",
+				"text": "Budget",
+				"fieldPos": 13,
+				"type": "CheckBox",
+				"editable": false,
+				"vAlign": "",
+				"hAlign": "Center",
+				"minScreenWidth": "1280px"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Status",
+				"text": "Status",
+				"fieldPos": 14,
+				"type": "ObjectStatus",
+				"statusStateType": "Lookup",
+				"statusStateLookup": {
+					"table": "demandboard_status",
+					"textField": "state",
+					"keyField": [
+						{
+							"fieldName": "name",
+							"key": "Status",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"width": "",
+				"vAlign": "",
+				"enableGroup": true
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Plant",
+				"text": "Plant",
+				"fieldPos": 15,
+				"width": "",
+				"vAlign": ""
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "CostCentre",
+				"text": "Cost Centre",
+				"fieldPos": 16,
+				"wrapping": true,
+				"vAlign": "",
+				"minScreenWidth": "1440px"
+			},
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Updated At",
+				"fieldPos": 17,
+				"formatter": "date01",
+				"width": "",
+				"vAlign": ""
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "Updated By",
+				"fieldPos": 18,
+				"width": "",
+				"vAlign": "",
+				"minScreenWidth": "1920px"
+			}
+		],
+		"defaultVariant": {
+			"id": "1708eaea-d54a-4cec-946f-bc6db95e24d4",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "demandboard_items_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.11.9.1050",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

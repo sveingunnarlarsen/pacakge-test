@@ -1,0 +1,34 @@
+[
+	{
+		"id": "e70f7e7e-44cd-419f-9ea7-2a9f14590ef0",
+		"createdAt": "1667627777000",
+		"updatedAt": "1667627777000",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Cloud Licenses"
+	},
+	{
+		"id": "a85c9eea-052b-4be7-8ef8-3ee70715f59e",
+		"createdAt": "1667627785990",
+		"updatedAt": "1667627785990",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "On Premise"
+	},
+	{
+		"id": "3e28f1e5-287c-4960-98e3-dab0afdfa464",
+		"createdAt": "1667627801450",
+		"updatedAt": "1667627801450",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Service Level Agreement"
+	},
+	{
+		"id": "1ec23840-536e-4745-8a90-6f111a02121d",
+		"createdAt": "1667627781205",
+		"updatedAt": "1667627781205",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Max Attention"
+	}
+]

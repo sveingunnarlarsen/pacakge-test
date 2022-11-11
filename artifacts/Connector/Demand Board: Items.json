@@ -1,0 +1,17 @@
+{
+	"id": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
+	"createdAt": "2022-11-05T05:50:20.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "633e2b8c-9142-4f46-8b32-9ba308170820",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Demand Board: Items",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "22.11.5.650",
+	"disabled": false,
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
+}

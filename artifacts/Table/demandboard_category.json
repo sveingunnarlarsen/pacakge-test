@@ -1,0 +1,24 @@
+{
+	"id": "9a0c54fd-1cbb-4740-88b8-a3624eaeb6d0",
+	"createdAt": "2022-11-05T05:46:56.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "c8b7523d-632d-4e1a-b2de-d288c8fc2497",
+			"fieldName": "name",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Name"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "demandboard_category",
+	"description": "Demand Board: Category",
+	"ver": "22.11.5.646",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"rolesRead": [],
+	"rolesWrite": []
+}

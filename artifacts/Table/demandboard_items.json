@@ -1,0 +1,106 @@
+{
+	"id": "633e2b8c-9142-4f46-8b32-9ba308170820",
+	"createdAt": "2022-11-05T05:42:19.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "fde0c8eb-1b3e-4863-d78c-434ab0716b9f",
+			"fieldName": "Product",
+			"fieldType": "text",
+			"description": "Product Name",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "25deba48-040f-4aad-b562-c96a325bb5cd",
+			"fieldName": "Category",
+			"fieldType": "text",
+			"description": "Product Category",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6d392d19-d9eb-4f4c-a95a-4237ae9008db",
+			"fieldName": "TimePeriod",
+			"fieldType": "text",
+			"description": "Time Period",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "fd32df0c-74eb-4a38-e789-72bb581b9fba",
+			"fieldName": "StartDate",
+			"fieldType": "text",
+			"description": "Contract Start Date",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ee873755-07bb-435a-c827-e17e0396f0f1",
+			"fieldName": "Quantity",
+			"fieldType": "text",
+			"description": "Quantity",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "894d9081-a5cc-4c69-c8e7-c2bf9f5a7d21",
+			"fieldName": "Price",
+			"fieldType": "integer",
+			"description": "Price Information",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8fa3c0c3-686d-4050-9bb3-9c3628266b39",
+			"fieldName": "Reason",
+			"fieldType": "text",
+			"description": "Reason for Use-Justification",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b70ce8e9-b873-4ddb-820b-9082808cd2d2",
+			"fieldName": "Status",
+			"fieldType": "text",
+			"description": "Status",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ceccc1de-9a65-41c7-c681-a7820aa895c7",
+			"fieldName": "Plant",
+			"fieldType": "text",
+			"description": "Charged to Plant",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2d92ec16-4f8e-4e64-85ff-50244b43a817",
+			"fieldName": "CostCentre",
+			"fieldType": "text",
+			"description": "Cost Centre/Co-Assignment",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c388439c-f6bf-4f4e-dca1-7025ccda7afd",
+			"fieldName": "Budget",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Budget Available",
+			"default": ""
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "demandboard_items",
+	"description": "Demand Board: Items",
+	"ver": "22.11.6.1624",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"rolesRead": [],
+	"rolesWrite": []
+}

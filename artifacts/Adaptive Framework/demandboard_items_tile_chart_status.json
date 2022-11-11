@@ -1,0 +1,173 @@
+{
+	"id": "18df0408-c0ee-4cbe-a4ac-987f3b05039f",
+	"createdAt": "2022-11-05T07:07:15.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "1000",
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": "300",
+				"chartType": "column",
+				"enableSorting": false,
+				"enableMonochrome": true,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": false,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": "1",
+				"colorMonochrome": "#008299",
+				"yAxisGridLineColor": "#2e3742",
+				"brightenMonochrome": "0",
+				"pieInnerSize": 0,
+				"enable3D": true,
+				"alpha3D": "0",
+				"beta3D": "20",
+				"depth3D": "100"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "Budget",
+				"label": "Budget Available",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Category",
+				"label": "Product Category",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CostCentre",
+				"label": "Cost Centre/Co-Assignment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Plant",
+				"label": "Charged to Plant",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Price",
+				"label": "Price Information",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Product",
+				"label": "Product Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Quantity",
+				"label": "Quantity",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Reason",
+				"label": "Reason for Use-Justification",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "StartDate",
+				"label": "Contract Start Date",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TimePeriod",
+				"label": "Time Period",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "Status",
+				"text": "Status",
+				"fieldPos": 1,
+				"type": "data"
+			}
+		],
+		"defaultVariant": {
+			"id": "a149e338-21d5-4528-efa4-7665354abbee",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "demandboard_items_tile_chart_status",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.11.6.120",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

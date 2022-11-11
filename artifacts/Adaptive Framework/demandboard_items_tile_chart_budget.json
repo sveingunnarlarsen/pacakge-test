@@ -1,0 +1,179 @@
+{
+	"id": "4b8e432f-f61e-4d59-a927-1c5bd7094fed",
+	"createdAt": "2022-11-08T12:57:58.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "100",
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": 250,
+				"chartType": "pie",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "Budget",
+				"label": "Budget Available",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Category",
+				"label": "Product Category",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CostCentre",
+				"label": "Cost Centre/Co-Assignment",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Plant",
+				"label": "Charged to Plant",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Price",
+				"label": "Price Information",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Product",
+				"label": "Product Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Quantity",
+				"label": "Quantity",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Reason",
+				"label": "Reason for Use-Justification",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "StartDate",
+				"label": "Contract Start Date",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TimePeriod",
+				"label": "Time Period",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "Budget",
+				"text": "Budget Available",
+				"enableFilter": false,
+				"fieldPos": 1,
+				"type": "category"
+			},
+			{
+				"visible": false,
+				"name": "Price",
+				"text": "Price Information",
+				"enableFilter": false,
+				"fieldPos": 2,
+				"type": "value"
+			}
+		],
+		"defaultVariant": {
+			"id": "42a39533-7009-479c-c05a-d1eb3ede5c3c",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "demandboard_items_tile_chart_budget",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.11.8.149",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

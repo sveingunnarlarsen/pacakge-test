@@ -1,0 +1,33 @@
+{
+	"id": "ad54a8d9-fe29-4a4c-bb7b-c5e97769397e",
+	"createdAt": "2022-11-05T05:49:32.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "baef163e-bcfe-438a-da9d-a976b5d1f7bb",
+			"fieldName": "name",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Name",
+			"isNullable": true
+		},
+		{
+			"id": "89b7a5f6-a09a-4c85-88e8-9620f28d2a6c",
+			"fieldName": "state",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "State",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "demandboard_status",
+	"description": "Demand Board: Status",
+	"ver": "22.11.5.649",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"rolesRead": [],
+	"rolesWrite": []
+}

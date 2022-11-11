@@ -1,0 +1,38 @@
+[
+	{
+		"id": "fe4f3354-736e-4f87-b387-e11a7aed7713",
+		"createdAt": "1667627628980",
+		"updatedAt": "1667627634144",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Rejected",
+		"state": "Error"
+	},
+	{
+		"id": "9cb891f7-1aa7-4013-90a3-4b84850614f4",
+		"createdAt": "1667627617874",
+		"updatedAt": "1667627622858",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "Ordered",
+		"state": "Success"
+	},
+	{
+		"id": "4a844864-a680-48b9-bd4e-bdc515ca494e",
+		"createdAt": "1667627570067",
+		"updatedAt": "1667627595148",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "New Demand",
+		"state": "None"
+	},
+	{
+		"id": "0c5053fe-e605-42c5-9ee7-40a99b1118e5",
+		"createdAt": "1667627604781",
+		"updatedAt": "1667627610852",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"name": "In Order Process",
+		"state": "Warning"
+	}
+]

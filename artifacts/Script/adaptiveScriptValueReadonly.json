@@ -1,0 +1,24 @@
+{
+	"id": "aa0a52be-445e-4e6d-ac13-eddfea482092",
+	"createdAt": "2022-11-05T11:38:55.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "adaptiveScriptValueReadonly",
+	"ver": "22.11.5.1239",
+	"description": null,
+	"content": [
+		"==OBJECT STRING==",
+		"result.data = \"Ordered\";\r",
+		"complete();"
+	],
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e55f4f2c-c5a4-423f-a15c-d3b245b90af5",
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
+}
