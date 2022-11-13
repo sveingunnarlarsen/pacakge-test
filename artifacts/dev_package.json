@@ -9,7 +9,14 @@
 	"description": "Mercedes-Benz SAP Demand Board ",
 	"ver": "22.11.13.1644",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "850e9355-7263-ed11-94d8-7085c23ef572",
+			"application": "demand_board",
+			"title": "",
+			"description": ""
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],

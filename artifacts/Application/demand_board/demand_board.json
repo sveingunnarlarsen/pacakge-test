@@ -1,0 +1,511 @@
+{
+	"id": "850e9355-7263-ed11-94d8-7085c23ef572",
+	"createdAt": "2022-11-13T16:44:07.506Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "13",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"data": [
+				{
+					"fieldNo": "1",
+					"fieldName": "oApp",
+					"fieldParent": "13",
+					"fieldType": "sap.m.SplitApp",
+					"data": [
+						{
+							"fieldNo": "2",
+							"fieldName": "oPageMaster",
+							"fieldParent": "1",
+							"fieldType": "sap.m.Page",
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Master Page"
+								},
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "addMasterPage"
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "15",
+									"fieldName": "oSubMaster",
+									"fieldParent": "2",
+									"fieldType": "sap.m.Bar",
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setSubHeader"
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "16",
+											"fieldName": "Left",
+											"fieldParent": "15",
+											"fieldType": "neptune.BarContent",
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft"
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "17",
+													"fieldName": "oFilterMaster",
+													"fieldParent": "16",
+													"fieldType": "sap.m.SearchField"
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "14",
+									"fieldName": "oList",
+									"fieldParent": "2",
+									"fieldType": "sap.m.List",
+									"data": [
+										{
+											"fieldNo": "18",
+											"fieldName": "oObjectListItem",
+											"fieldParent": "14",
+											"fieldType": "sap.m.ObjectListItem",
+											"attributes": [
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "My Item"
+												},
+												{
+													"attribute": "numberUnit",
+													"grouping": "Properties",
+													"value": "Units"
+												},
+												{
+													"attribute": "number",
+													"grouping": "Properties",
+													"value": "10"
+												},
+												{
+													"attribute": "intro",
+													"grouping": "Properties",
+													"value": "Some Intro"
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://accounting-document-verification"
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "19",
+													"fieldName": "oObjectAttribute",
+													"fieldParent": "18",
+													"fieldType": "sap.m.ObjectAttribute",
+													"attributes": [
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "title"
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Attribute 1"
+														}
+													]
+												},
+												{
+													"fieldNo": "20",
+													"fieldName": "oObjectStatus",
+													"fieldParent": "18",
+													"fieldType": "sap.m.ObjectStatus",
+													"attributes": [
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "status"
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Approved"
+														},
+														{
+															"attribute": "state",
+															"grouping": "Properties",
+															"value": "Success"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "4",
+									"fieldName": "oFooterMaster",
+									"fieldParent": "2",
+									"fieldType": "sap.m.Bar",
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter"
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "5",
+											"fieldName": "Right",
+											"fieldParent": "4",
+											"fieldType": "neptune.BarContent",
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight"
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "6",
+													"fieldName": "butCreate",
+													"fieldParent": "5",
+													"fieldType": "sap.m.Button",
+													"attributes": [
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://add"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "3",
+							"fieldName": "oPageDetail",
+							"fieldParent": "1",
+							"fieldType": "sap.m.Page",
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Detail Page"
+								},
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "addDetailPage"
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "21",
+									"fieldName": "barDetail",
+									"fieldParent": "3",
+									"fieldType": "sap.m.IconTabBar",
+									"attributes": [
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "false"
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "22",
+											"fieldName": "barDetailInfo",
+											"fieldParent": "21",
+											"fieldType": "sap.m.IconTabFilter",
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "General"
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://hint"
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "24",
+													"fieldName": "formDetail",
+													"fieldParent": "22",
+													"fieldType": "sap.ui.layout.form.SimpleForm",
+													"data": [
+														{
+															"fieldNo": "25",
+															"fieldName": "oLabel",
+															"fieldParent": "24",
+															"fieldType": "sap.m.Label",
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Label 1"
+																}
+															]
+														},
+														{
+															"fieldNo": "28",
+															"fieldName": "oText",
+															"fieldParent": "24",
+															"fieldType": "sap.m.Text",
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Some information text"
+																}
+															]
+														},
+														{
+															"fieldNo": "26",
+															"fieldName": "oLabel1",
+															"fieldParent": "24",
+															"fieldType": "sap.m.Label",
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Label 2"
+																}
+															]
+														},
+														{
+															"fieldNo": "29",
+															"fieldName": "oText1",
+															"fieldParent": "24",
+															"fieldType": "sap.m.Text",
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Some information text"
+																}
+															]
+														},
+														{
+															"fieldNo": "27",
+															"fieldName": "oLabel2",
+															"fieldParent": "24",
+															"fieldType": "sap.m.Label",
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Label 3"
+																}
+															]
+														},
+														{
+															"fieldNo": "30",
+															"fieldName": "oText2",
+															"fieldParent": "24",
+															"fieldType": "sap.m.Text",
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Some information text"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "23",
+											"fieldName": "barDetailList",
+											"fieldParent": "21",
+											"fieldType": "sap.m.IconTabFilter",
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Items"
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://list"
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "7",
+									"fieldName": "oFooterDetail",
+									"fieldParent": "3",
+									"fieldType": "sap.m.Bar",
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter"
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "7",
+											"fieldType": "neptune.BarContent",
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight"
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "9",
+													"fieldName": "butApprove",
+													"fieldParent": "8",
+													"fieldType": "sap.m.Button",
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Accept"
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Approve"
+														}
+													]
+												},
+												{
+													"fieldNo": "10",
+													"fieldName": "butReject",
+													"fieldParent": "8",
+													"fieldType": "sap.m.Button",
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Reject"
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Reject"
+														}
+													]
+												},
+												{
+													"fieldNo": "11",
+													"fieldName": "butEmp",
+													"fieldParent": "8",
+													"fieldType": "sap.m.Button",
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized"
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Emphasized"
+														}
+													]
+												},
+												{
+													"fieldNo": "12",
+													"fieldName": "butTransp",
+													"fieldParent": "8",
+													"fieldType": "sap.m.Button",
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Transparent"
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Transparent"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "f14c424f-d0f3-4ddb-c332-7844ad0a34fd",
+					"fieldName": "oTypescript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": "file://script/neptune.Typescript/oTypescript.script"
+				}
+			]
+		},
+		{
+			"fieldNo": 99998
+		}
+	],
+	"ver": "22.11.13.1744",
+	"application": "demand_board",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": true,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_language": null,
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
+}
