@@ -2,12 +2,10 @@
 	"id": "40694d09-0a55-4f04-8587-ce9d3f2455fd",
 	"createdAt": "2022-11-05T06:43:02.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
-	"translation": [],
 	"tilesOrder": [
 		"6b67eb31-ce06-4688-81fa-e77e5523786b",
 		"ab5273fa-3869-4813-8469-722a55d31b94"
 	],
-	"tilegroupsOrder": [],
 	"configMessage": {},
 	"title": "Demand Board",
 	"subTitle": "SAPCCC Team",
@@ -16,7 +14,6 @@
 	"enableFullScreen": false,
 	"hideHeader": false,
 	"backgroundType": "cards",
-	"backgroundColor": "",
 	"backgroundShade": null,
 	"type": null,
 	"image": null,
@@ -60,7 +57,6 @@
 	"hideFromMenu": false,
 	"roleTag": null,
 	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": [],
 	"tiles": [
 		{
 			"id": "ab5273fa-3869-4813-8469-722a55d31b94",
@@ -74,6 +70,5 @@
 			"title": "Analytical Dashboard",
 			"ver": "22.11.9.920"
 		}
-	],
-	"tilegroups": []
+	]
 }

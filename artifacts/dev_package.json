@@ -7,7 +7,7 @@
 	},
 	"name": "com.skyetec.demandboard",
 	"description": "Mercedes-Benz SAP Demand Board ",
-	"ver": "22.11.11.1025",
+	"ver": "22.11.13.1644",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],

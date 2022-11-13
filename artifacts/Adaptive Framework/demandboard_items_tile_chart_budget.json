@@ -129,7 +129,6 @@
 				"usage": "BOTH"
 			}
 		],
-		"fieldsSel": [],
 		"fieldsRun": [
 			{
 				"visible": true,
@@ -152,16 +151,11 @@
 			"id": "42a39533-7009-479c-c05a-d1eb3ede5c3c",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
-			"row": [],
-			"column": [],
-			"val": [],
 			"inclusions": {},
 			"exclusions": {}
 		}
 	},
 	"name": "demandboard_items_tile_chart_budget",
-	"description": "",
-	"group": "",
 	"type": "C",
 	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
 	"scriptSel": null,
@@ -172,7 +166,6 @@
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",
 	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
 	"tableObj": null

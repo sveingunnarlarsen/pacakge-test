@@ -2,8 +2,6 @@
 	"id": "956558a0-2a2a-4ba0-8750-a1c109f44257",
 	"createdAt": "2022-11-05T06:45:15.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
-	"extUserRoles": [],
-	"extUserDepartments": [],
 	"catOrder": [
 		"77f43950-6c48-48a4-bd35-f27743d34333"
 	],
@@ -100,10 +98,8 @@
 	],
 	"config": {
 		"activeAppsTop": false,
-		"showAppTitle": true,
-		"enhancement": ""
+		"showAppTitle": true
 	},
-	"enhancement": [],
 	"name": "Demand Board",
 	"title": "Mercedes-Benz",
 	"description": null,
@@ -118,7 +114,7 @@
 	"header": [
 		"==OBJECT STRING==",
 		"<script type=\"text/javascript\" src=\"/public/highsuite/themes/dark-unica.js\"></script>\r",
-		""
+		null
 	],
 	"customTheme": null,
 	"isExternal": false,

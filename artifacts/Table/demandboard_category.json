@@ -11,14 +11,10 @@
 			"description": "Name"
 		}
 	],
-	"indices": [],
-	"foreignKeys": [],
 	"name": "demandboard_category",
 	"description": "Demand Board: Category",
 	"ver": "22.11.5.646",
 	"enableAudit": false,
 	"includeDataInPackage": true,
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"rolesRead": [],
-	"rolesWrite": []
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
 }

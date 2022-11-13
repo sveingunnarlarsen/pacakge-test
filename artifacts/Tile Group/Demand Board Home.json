@@ -2,8 +2,6 @@
 	"id": "77f43950-6c48-48a4-bd35-f27743d34333",
 	"createdAt": "2022-11-05T06:42:09.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
-	"translation": [],
-	"tilesOrder": [],
 	"tilegroupsOrder": [
 		"a9864c28-b238-4582-941d-864a18402c81",
 		"40694d09-0a55-4f04-8587-ce9d3f2455fd",
@@ -19,7 +17,6 @@
 	"enableFullScreen": false,
 	"hideHeader": false,
 	"backgroundType": "cards",
-	"backgroundColor": "",
 	"backgroundShade": null,
 	"type": null,
 	"image": "/media/root/demandboard/mb_background1.jpg",
@@ -48,7 +45,6 @@
 	"name": "Demand Board Home",
 	"cardContentWidth": null,
 	"cardContentAlign": null,
-	"cardPerRow": "",
 	"cardStyle": null,
 	"cardHeightFit": false,
 	"imagePlacement": null,
@@ -63,8 +59,6 @@
 	"hideFromMenu": false,
 	"roleTag": null,
 	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": [],
-	"tiles": [],
 	"tilegroups": [
 		{
 			"id": "ccf8e72f-a08f-402a-a04f-d8db9d2bf834",

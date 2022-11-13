@@ -2,7 +2,6 @@
 	"id": "6b67eb31-ce06-4688-81fa-e77e5523786b",
 	"createdAt": "2022-11-05T07:16:45.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
-	"translation": [],
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
@@ -16,9 +15,7 @@
 	"categoryID": null,
 	"sort": null,
 	"urlApplication": null,
-	"actionApplication": "",
 	"actionParameters": null,
-	"actionURL": "",
 	"openDialog": false,
 	"openWindow": false,
 	"openFullscreen": true,
@@ -45,7 +42,6 @@
 	"tileApplicationStyleClass": null,
 	"sidepanelApp": null,
 	"sidepanelTitle": null,
-	"tags": "",
 	"actiongroup": null,
 	"styleClass": null,
 	"titleAlignment": null,
@@ -62,7 +58,6 @@
 	"helpEnabled": false,
 	"openClickTile": false,
 	"ver": "22.11.9.920",
-	"actionWebApp": "",
 	"name": "Demand Board: KPI",
 	"cardWidth": "Wide",
 	"cardHeight": "Tall",
@@ -80,6 +75,5 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": []
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
 }

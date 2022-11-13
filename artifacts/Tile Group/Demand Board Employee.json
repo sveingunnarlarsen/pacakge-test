@@ -2,12 +2,10 @@
 	"id": "a9864c28-b238-4582-941d-864a18402c81",
 	"createdAt": "2022-11-05T06:42:35.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
-	"translation": [],
 	"tilesOrder": [
 		"d0cc6d05-307f-491a-b25e-bf71bc265141",
 		"6b67eb31-ce06-4688-81fa-e77e5523786b"
 	],
-	"tilegroupsOrder": [],
 	"configMessage": {},
 	"title": "Demand Board",
 	"subTitle": "Employees",
@@ -16,7 +14,6 @@
 	"enableFullScreen": false,
 	"hideHeader": false,
 	"backgroundType": "cards",
-	"backgroundColor": "",
 	"backgroundShade": null,
 	"type": null,
 	"image": null,
@@ -60,7 +57,6 @@
 	"hideFromMenu": false,
 	"roleTag": null,
 	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": [],
 	"tiles": [
 		{
 			"id": "d0cc6d05-307f-491a-b25e-bf71bc265141",
@@ -74,6 +70,5 @@
 			"title": "Analytical Dashboard",
 			"ver": "22.11.9.920"
 		}
-	],
-	"tilegroups": []
+	]
 }

@@ -6,22 +6,16 @@
 		"properties": {
 			"report": {
 				"showIcon": true,
-				"iconButtonClose": "",
 				"textButtonClose": "Close",
 				"typeButtonClose": "Attention",
-				"iconButtonCreate": "",
 				"textButtonCreate": "Create",
 				"typeButtonCreate": "Emphasized",
 				"iconButtonExport": "sap-icon://excel-attachment",
-				"textButtonExport": "",
 				"typeButtonExport": "Transparent",
 				"iconButtonImport": "sap-icon://fa-solid/file-import",
-				"textButtonImport": "",
 				"typeButtonImport": "Transparent",
-				"iconButtonMultiSelect": "",
 				"textButtonMultiSelect": "MultiSelect",
 				"typeButtonMultiSelect": "Emphasized",
-				"iconButtonRun": "",
 				"textButtonRun": "Update",
 				"typeButtonRun": "Emphasized",
 				"enableRun": true,
@@ -36,7 +30,6 @@
 				"autoRun": true,
 				"autoRunFocus": true,
 				"searchLabel": "Search",
-				"searchPlaceholder": "",
 				"title": "Demand Board",
 				"subTitle": "new item or edit this list",
 				"avatarIcon": "sap-icon://request",
@@ -48,7 +41,6 @@
 					"keyField": [
 						{
 							"fieldName": "Status",
-							"key": "",
 							"value": "New Demand"
 						}
 					]
@@ -57,8 +49,7 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "a24314c9-cc27-45cf-a247-1fe7b2facd30",
-					"keyField": []
+					"destinationTargetF": "a24314c9-cc27-45cf-a247-1fe7b2facd30"
 				},
 				"actionButtonLeft": false,
 				"avatarBackgroundColor": "Accent7"
@@ -71,11 +62,8 @@
 				"enablePagination": true,
 				"paginationShowSelection": true,
 				"paginationRows": "20",
-				"action1Text": "",
 				"action1Type": "Transparent",
-				"action2Text": "",
 				"action2Type": "Transparent",
-				"action3Text": "",
 				"action3Type": "Transparent",
 				"showSeparators": "All",
 				"alternateRowColors": true,
@@ -225,7 +213,6 @@
 				"name": "createdBy",
 				"text": "Created By",
 				"fieldPos": 5,
-				"default": "",
 				"sysvarValue": "UserName"
 			}
 		],
@@ -237,9 +224,7 @@
 				"name": "Product",
 				"text": "Product",
 				"fieldPos": 6,
-				"width": "",
-				"wrapping": true,
-				"vAlign": ""
+				"wrapping": true
 			},
 			{
 				"enableFilter": true,
@@ -249,8 +234,6 @@
 				"text": "Category",
 				"fieldPos": 7,
 				"enableGroup": true,
-				"vAlign": "",
-				"type": "",
 				"editable": true,
 				"lookupTable": "demandboard_category",
 				"lookupFieldKey": "name",
@@ -265,7 +248,6 @@
 				"text": "Time Period",
 				"fieldPos": 8,
 				"wrapping": true,
-				"vAlign": "",
 				"minScreenWidth": "1920px"
 			},
 			{
@@ -275,7 +257,6 @@
 				"name": "StartDate",
 				"text": "Start Date",
 				"fieldPos": 9,
-				"vAlign": "",
 				"formatter": "date01",
 				"minScreenWidth": "XXLarge"
 			},
@@ -298,8 +279,6 @@
 				"text": "Quantity",
 				"fieldPos": 11,
 				"hAlign": "End",
-				"width": "",
-				"vAlign": "",
 				"minScreenWidth": "1440px"
 			},
 			{
@@ -311,12 +290,10 @@
 				"fieldPos": 12,
 				"type": "ObjectNumber",
 				"editable": true,
-				"width": "",
 				"numberUnitType": "Fixed",
 				"numberUnitFixed": "EUR",
 				"hAlign": "End",
 				"formatter": "number03",
-				"vAlign": "",
 				"minScreenWidth": "1440px"
 			},
 			{
@@ -328,7 +305,6 @@
 				"fieldPos": 13,
 				"type": "CheckBox",
 				"editable": false,
-				"vAlign": "",
 				"hAlign": "Center",
 				"minScreenWidth": "1280px"
 			},
@@ -347,15 +323,12 @@
 					"keyField": [
 						{
 							"fieldName": "name",
-							"key": "Status",
-							"value": ""
+							"key": "Status"
 						}
 					],
 					"hideKey": true,
 					"butType": "Accept"
 				},
-				"width": "",
-				"vAlign": "",
 				"enableGroup": true
 			},
 			{
@@ -364,9 +337,7 @@
 				"visible": true,
 				"name": "Plant",
 				"text": "Plant",
-				"fieldPos": 15,
-				"width": "",
-				"vAlign": ""
+				"fieldPos": 15
 			},
 			{
 				"enableFilter": true,
@@ -376,7 +347,6 @@
 				"text": "Cost Centre",
 				"fieldPos": 16,
 				"wrapping": true,
-				"vAlign": "",
 				"minScreenWidth": "1440px"
 			},
 			{
@@ -386,9 +356,7 @@
 				"name": "updatedAt",
 				"text": "Updated At",
 				"fieldPos": 17,
-				"formatter": "date01",
-				"width": "",
-				"vAlign": ""
+				"formatter": "date01"
 			},
 			{
 				"enableFilter": true,
@@ -397,8 +365,6 @@
 				"name": "updatedBy",
 				"text": "Updated By",
 				"fieldPos": 18,
-				"width": "",
-				"vAlign": "",
 				"minScreenWidth": "1920px"
 			}
 		],
@@ -406,16 +372,11 @@
 			"id": "1708eaea-d54a-4cec-946f-bc6db95e24d4",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
-			"row": [],
-			"column": [],
-			"val": [],
 			"inclusions": {},
 			"exclusions": {}
 		}
 	},
 	"name": "demandboard_items_list",
-	"description": "",
-	"group": "",
 	"type": "C",
 	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
 	"scriptSel": null,
@@ -426,7 +387,6 @@
 	"appType": "A",
 	"application": "planet9_adaptive_list",
 	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
 	"tableObj": null

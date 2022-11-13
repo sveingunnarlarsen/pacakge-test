@@ -6,22 +6,16 @@
 		"properties": {
 			"report": {
 				"showIcon": true,
-				"iconButtonClose": "",
 				"textButtonClose": "Close",
 				"typeButtonClose": "Attention",
-				"iconButtonCreate": "",
 				"textButtonCreate": "Create",
 				"typeButtonCreate": "Emphasized",
 				"iconButtonExport": "sap-icon://excel-attachment",
-				"textButtonExport": "",
 				"typeButtonExport": "Transparent",
 				"iconButtonImport": "sap-icon://fa-solid/file-import",
-				"textButtonImport": "",
 				"typeButtonImport": "Transparent",
-				"iconButtonMultiSelect": "",
 				"textButtonMultiSelect": "MultiSelect",
 				"typeButtonMultiSelect": "Emphasized",
-				"iconButtonRun": "",
 				"textButtonRun": "Update",
 				"typeButtonRun": "Emphasized",
 				"enableRun": true,
@@ -36,7 +30,6 @@
 				"autoRun": true,
 				"autoRunFocus": true,
 				"searchLabel": "Search",
-				"searchPlaceholder": "",
 				"title": "Demand Board",
 				"subTitle": "Approve or Reject demand items",
 				"avatarIcon": "sap-icon://request",
@@ -48,7 +41,6 @@
 					"keyField": [
 						{
 							"fieldName": "Status",
-							"key": "",
 							"value": "New Demand"
 						}
 					]
@@ -58,7 +50,6 @@
 					"openAs": "D",
 					"butType": "Accept",
 					"destinationTargetF": "f04b7ef3-68d6-423d-9f39-66d327c2b315",
-					"keyField": [],
 					"dialogHeight": "900px",
 					"dialogWidth": "1440px",
 					"dialogHeader": true,
@@ -76,11 +67,8 @@
 				"enablePagination": true,
 				"paginationShowSelection": true,
 				"paginationRows": "15",
-				"action1Text": "",
 				"action1Type": "Transparent",
-				"action2Text": "",
 				"action2Type": "Transparent",
-				"action3Text": "",
 				"action3Type": "Transparent",
 				"showSeparators": "All",
 				"alternateRowColors": true,
@@ -230,9 +218,7 @@
 				"name": "Product",
 				"text": "Product",
 				"fieldPos": 5,
-				"width": "",
-				"wrapping": true,
-				"vAlign": ""
+				"wrapping": true
 			},
 			{
 				"enableFilter": true,
@@ -241,8 +227,7 @@
 				"name": "Category",
 				"text": "Category",
 				"fieldPos": 6,
-				"enableGroup": true,
-				"vAlign": ""
+				"enableGroup": true
 			},
 			{
 				"enableFilter": true,
@@ -251,8 +236,7 @@
 				"name": "TimePeriod",
 				"text": "Time Period",
 				"fieldPos": 7,
-				"wrapping": true,
-				"vAlign": ""
+				"wrapping": true
 			},
 			{
 				"enableFilter": true,
@@ -261,7 +245,6 @@
 				"name": "StartDate",
 				"text": "Start Date",
 				"fieldPos": 8,
-				"vAlign": "",
 				"formatter": "date01"
 			},
 			{
@@ -282,9 +265,7 @@
 				"name": "Quantity",
 				"text": "Quantity",
 				"fieldPos": 10,
-				"hAlign": "End",
-				"width": "",
-				"vAlign": ""
+				"hAlign": "End"
 			},
 			{
 				"enableFilter": false,
@@ -295,12 +276,10 @@
 				"fieldPos": 11,
 				"type": "ObjectNumber",
 				"editable": true,
-				"width": "",
 				"numberUnitType": "Fixed",
 				"numberUnitFixed": "EUR",
 				"hAlign": "End",
-				"formatter": "number03",
-				"vAlign": ""
+				"formatter": "number03"
 			},
 			{
 				"enableFilter": false,
@@ -311,7 +290,6 @@
 				"fieldPos": 12,
 				"type": "CheckBox",
 				"editable": false,
-				"vAlign": "",
 				"hAlign": "Center"
 			},
 			{
@@ -329,15 +307,12 @@
 					"keyField": [
 						{
 							"fieldName": "name",
-							"key": "Status",
-							"value": ""
+							"key": "Status"
 						}
 					],
 					"hideKey": true,
 					"butType": "Accept"
 				},
-				"width": "",
-				"vAlign": "",
 				"enableGroup": true
 			},
 			{
@@ -346,9 +321,7 @@
 				"visible": true,
 				"name": "Plant",
 				"text": "Plant",
-				"fieldPos": 14,
-				"width": "",
-				"vAlign": ""
+				"fieldPos": 14
 			},
 			{
 				"enableFilter": true,
@@ -357,8 +330,7 @@
 				"name": "CostCentre",
 				"text": "Cost Centre",
 				"fieldPos": 15,
-				"wrapping": true,
-				"vAlign": ""
+				"wrapping": true
 			},
 			{
 				"enableFilter": false,
@@ -367,9 +339,7 @@
 				"name": "updatedAt",
 				"text": "Updated At",
 				"fieldPos": 16,
-				"formatter": "date01",
-				"width": "",
-				"vAlign": ""
+				"formatter": "date01"
 			},
 			{
 				"enableFilter": true,
@@ -377,25 +347,18 @@
 				"visible": true,
 				"name": "updatedBy",
 				"text": "Updated By",
-				"fieldPos": 17,
-				"width": "",
-				"vAlign": ""
+				"fieldPos": 17
 			}
 		],
 		"defaultVariant": {
 			"id": "1708eaea-d54a-4cec-946f-bc6db95e24d4",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
-			"row": [],
-			"column": [],
-			"val": [],
 			"inclusions": {},
 			"exclusions": {}
 		}
 	},
 	"name": "demandboard_items_list_approver",
-	"description": "",
-	"group": "",
 	"type": "C",
 	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
 	"scriptSel": null,
@@ -406,7 +369,6 @@
 	"appType": "A",
 	"application": "planet9_adaptive_list",
 	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
 	"tableObj": null

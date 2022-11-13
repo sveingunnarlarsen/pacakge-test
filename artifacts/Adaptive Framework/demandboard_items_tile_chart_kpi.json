@@ -22,15 +22,13 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "18df0408-c0ee-4cbe-a4ac-987f3b05039f",
-					"keyField": []
+					"destinationTargetF": "18df0408-c0ee-4cbe-a4ac-987f3b05039f"
 				},
 				"_app2Nav": {
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "743caf47-dc2b-4b1b-858a-09ffcf2adea2",
-					"keyField": []
+					"destinationTargetF": "743caf47-dc2b-4b1b-858a-09ffcf2adea2"
 				},
 				"splitter2Width": "0",
 				"splitter3Width": "0"
@@ -130,22 +128,15 @@
 				"usage": "BOTH"
 			}
 		],
-		"fieldsSel": [],
-		"fieldsRun": [],
 		"defaultVariant": {
 			"id": "e466fa16-d67f-4996-a540-408e1cd65d99",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
-			"row": [],
-			"column": [],
-			"val": [],
 			"inclusions": {},
 			"exclusions": {}
 		}
 	},
 	"name": "demandboard_items_tile_chart_kpi",
-	"description": "",
-	"group": "",
 	"type": "C",
 	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
 	"scriptSel": null,
@@ -156,7 +147,6 @@
 	"appType": "A",
 	"application": "planet9_adaptive_splitter",
 	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
 	"tableObj": null

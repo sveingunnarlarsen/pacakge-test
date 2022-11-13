@@ -2,7 +2,6 @@
 	"id": "d0cc6d05-307f-491a-b25e-bf71bc265141",
 	"createdAt": "2022-11-05T06:41:45.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
-	"translation": [],
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
@@ -16,15 +15,12 @@
 	"categoryID": null,
 	"sort": null,
 	"urlApplication": null,
-	"actionApplication": "",
 	"actionParameters": null,
-	"actionURL": "",
 	"openDialog": false,
 	"openWindow": false,
 	"openFullscreen": false,
 	"forceRow": false,
 	"frameType": null,
-	"type": "",
 	"image": "/media/root/demandboard/mb_image_04.png",
 	"icon": "sap-icon://request",
 	"backgroundType": null,
@@ -45,7 +41,6 @@
 	"tileApplicationStyleClass": null,
 	"sidepanelApp": null,
 	"sidepanelTitle": null,
-	"tags": "",
 	"actiongroup": null,
 	"styleClass": null,
 	"titleAlignment": null,
@@ -62,9 +57,7 @@
 	"helpEnabled": false,
 	"openClickTile": false,
 	"ver": "22.11.6.190",
-	"actionWebApp": "",
 	"name": "Demand Board: Items Employees",
-	"cardWidth": "",
 	"cardHeight": "Tall",
 	"cardHeightFit": false,
 	"cardImage": null,
@@ -80,6 +73,5 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": []
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
 }

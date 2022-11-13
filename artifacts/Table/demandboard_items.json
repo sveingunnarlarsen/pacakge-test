@@ -89,18 +89,13 @@
 			"fieldType": "boolean",
 			"isUnique": false,
 			"isNullable": true,
-			"description": "Budget Available",
-			"default": ""
+			"description": "Budget Available"
 		}
 	],
-	"indices": [],
-	"foreignKeys": [],
 	"name": "demandboard_items",
 	"description": "Demand Board: Items",
 	"ver": "22.11.6.1624",
 	"enableAudit": false,
 	"includeDataInPackage": true,
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"rolesRead": [],
-	"rolesWrite": []
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
 }

@@ -2,7 +2,6 @@
 	"id": "eaefb0a8-e9d1-459c-9c13-962e03cd37ad",
 	"createdAt": "2022-11-05T06:41:08.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
-	"translation": [],
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
@@ -15,9 +14,7 @@
 	"categoryID": null,
 	"sort": null,
 	"urlApplication": null,
-	"actionApplication": "",
 	"actionParameters": null,
-	"actionURL": "",
 	"openDialog": false,
 	"openWindow": false,
 	"openFullscreen": false,
@@ -44,7 +41,6 @@
 	"tileApplicationStyleClass": null,
 	"sidepanelApp": null,
 	"sidepanelTitle": null,
-	"tags": "",
 	"actiongroup": null,
 	"styleClass": null,
 	"titleAlignment": null,
@@ -61,7 +57,6 @@
 	"helpEnabled": false,
 	"openClickTile": false,
 	"ver": "22.11.5.741",
-	"actionWebApp": "",
 	"name": "Demand Board: Status",
 	"cardWidth": null,
 	"cardHeight": null,
@@ -79,6 +74,5 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": []
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
 }

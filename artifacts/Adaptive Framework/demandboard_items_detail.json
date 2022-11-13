@@ -6,10 +6,8 @@
 		"properties": {
 			"report": {
 				"showIcon": false,
-				"iconButtonClose": "",
 				"textButtonClose": "Close",
 				"typeButtonClose": "Attention",
-				"iconButtonSave": "",
 				"textButtonSave": "Save",
 				"textToastSave": "Saved",
 				"typeButtonSave": "Emphasized",
@@ -27,12 +25,10 @@
 				"enableTab4": false,
 				"enableTab5": false,
 				"title": "Demand Board",
-				"subTitle": "",
 				"avatarIcon": "sap-icon://customer-order-entry",
 				"actionButtonLeft": false,
 				"tabAttachmentText": "Attachment",
 				"enableAttachment": true,
-				"iconButtonDelete": "",
 				"textButtonDelete": "Delete",
 				"textToastDelete": "Deleted",
 				"typeButtonDelete": "Reject",
@@ -57,7 +53,6 @@
 				"value1ReadOnly": "New Demand",
 				"field2ReadOnly": "createdBy",
 				"operator2ReadOnly": "!==",
-				"value2ReadOnly": "",
 				"sysvar2ReadOnly": "UserName",
 				"script1ReadOnly": null,
 				"labelDesign": "Standard"
@@ -208,8 +203,7 @@
 				"name": "Price",
 				"text": "Price Information (EUR)",
 				"fieldPos": 5,
-				"description": "Please indicate the price per unit, if it is known",
-				"columnLabel": ""
+				"description": "Please indicate the price per unit, if it is known"
 			},
 			{
 				"editable": true,
@@ -239,7 +233,6 @@
 				"lookupFieldKey": "name",
 				"lookupFieldText": "name",
 				"lookupShowOnlyText": true,
-				"default": "",
 				"columnLabel": " ",
 				"description": "Status of the request"
 			},
@@ -307,21 +300,15 @@
 				"fieldPos": 15
 			}
 		],
-		"fieldsRun": [],
 		"defaultVariant": {
 			"id": "18a213cb-85fe-4217-fbbd-f8d0ac299664",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
-			"row": [],
-			"column": [],
-			"val": [],
 			"inclusions": {},
 			"exclusions": {}
 		}
 	},
 	"name": "demandboard_items_detail",
-	"description": "",
-	"group": "",
 	"type": "C",
 	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
 	"scriptSel": null,
@@ -332,7 +319,6 @@
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
 	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
 	"tableObj": null
