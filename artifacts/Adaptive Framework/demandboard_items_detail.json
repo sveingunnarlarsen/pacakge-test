@@ -54,7 +54,6 @@
 				"field2ReadOnly": "createdBy",
 				"operator2ReadOnly": "!==",
 				"sysvar2ReadOnly": "UserName",
-				"script1ReadOnly": null,
 				"labelDesign": "Standard"
 			},
 			"table": {}
@@ -311,15 +310,9 @@
 	"name": "demandboard_items_detail",
 	"type": "C",
 	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
-	"scriptSel": null,
-	"scriptRun": null,
-	"tableid": null,
 	"ver": "22.11.9.1029",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"scriptSelObj": null,
-	"scriptRunObj": null,
-	"tableObj": null
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
 }

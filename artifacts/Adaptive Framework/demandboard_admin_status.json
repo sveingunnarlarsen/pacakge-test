@@ -145,15 +145,9 @@
 	"name": "demandboard_admin_status",
 	"type": "C",
 	"connectorid": "7314ef49-8474-48cd-9cb9-3895d2b13ce3",
-	"scriptSel": null,
-	"scriptRun": null,
-	"tableid": null,
 	"ver": "22.11.5.654",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"scriptSelObj": null,
-	"scriptRunObj": null,
-	"tableObj": null
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
 }

@@ -152,15 +152,9 @@
 	"name": "demandboard_items_tile_chart_category",
 	"type": "C",
 	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
-	"scriptSel": null,
-	"scriptRun": null,
-	"tableid": null,
 	"ver": "22.11.6.128",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
-	"scriptSelObj": null,
-	"scriptRunObj": null,
-	"tableObj": null
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
 }
