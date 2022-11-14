@@ -8,6 +8,8 @@
 	},
 	"documentation": {},
 	"name": "Demand Board: Category",
+	"description": null,
+	"group": null,
 	"type": "T",
 	"ver": "22.11.5.650",
 	"disabled": false,

@@ -6,8 +6,10 @@
 		"properties": {
 			"report": {
 				"showIcon": false,
+				"iconButtonClose": "",
 				"textButtonClose": "Close",
 				"typeButtonClose": "Attention",
+				"iconButtonSave": "",
 				"textButtonSave": "Save",
 				"textToastSave": "Saved",
 				"typeButtonSave": "Emphasized",
@@ -25,11 +27,14 @@
 				"enableTab4": false,
 				"enableTab5": false,
 				"title": "Demand Board",
+				"subTitle": "",
 				"avatarIcon": "sap-icon://customer-order-entry",
 				"actionButtonLeft": false,
+				"iconButtonDelete": "",
 				"textButtonDelete": "Delete",
 				"textToastDelete": "Deleted",
 				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
 				"textButtonAttachment": "Add Attachment",
 				"typeButtonAttachment": "Transparent",
 				"tabAText": "Attachment",
@@ -44,7 +49,8 @@
 				"labelSpanL": "12",
 				"labelSpanM": "12",
 				"columnsL": "3",
-				"columnsM": "2"
+				"columnsM": "2",
+				"titleLevel": ""
 			},
 			"table": {}
 		},
@@ -192,7 +198,8 @@
 				"name": "Price",
 				"text": "Price Information",
 				"fieldPos": 5,
-				"description": "Please indicate the price per unit, if it is known"
+				"description": "Please indicate the price per unit, if it is known",
+				"columnLabel": ""
 			},
 			{
 				"editable": true,
@@ -222,6 +229,7 @@
 				"lookupFieldKey": "name",
 				"lookupFieldText": "name",
 				"lookupShowOnlyText": true,
+				"default": "",
 				"columnLabel": " Status",
 				"description": "Status of the request"
 			},
@@ -289,20 +297,33 @@
 				"fieldPos": 15
 			}
 		],
+		"fieldsRun": [],
 		"defaultVariant": {
 			"id": "18a213cb-85fe-4217-fbbd-f8d0ac299664",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
 			"inclusions": {},
 			"exclusions": {}
 		}
 	},
 	"name": "demandboard_items_detail_approver",
+	"description": "",
+	"group": "",
 	"type": "C",
 	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
 	"ver": "22.11.6.199",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
 }

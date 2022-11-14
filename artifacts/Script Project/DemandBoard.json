@@ -3,6 +3,7 @@
 	"createdAt": "2022-11-05T11:38:34.000Z",
 	"createdBy": "ole-andre.haugen@neptune-software.com",
 	"name": "DemandBoard",
+	"description": null,
 	"ver": "22.11.5.1238",
 	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
 }

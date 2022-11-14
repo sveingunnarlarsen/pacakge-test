@@ -6,16 +6,22 @@
 		"properties": {
 			"report": {
 				"showIcon": true,
+				"iconButtonClose": "",
 				"textButtonClose": "Close",
 				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
 				"textButtonCreate": "Create",
 				"typeButtonCreate": "Emphasized",
 				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
 				"typeButtonExport": "Transparent",
 				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
 				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
 				"textButtonMultiSelect": "MultiSelect",
 				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
 				"textButtonRun": "Update",
 				"typeButtonRun": "Emphasized",
 				"enableRun": true,
@@ -30,6 +36,7 @@
 				"autoRun": true,
 				"autoRunFocus": true,
 				"searchLabel": "Search",
+				"searchPlaceholder": "",
 				"title": "Status",
 				"subTitle": "Demand Board",
 				"avatarIcon": "sap-icon://order-status"
@@ -42,8 +49,11 @@
 				"enablePagination": false,
 				"paginationShowSelection": false,
 				"paginationRows": 25,
+				"action1Text": "",
 				"action1Type": "Transparent",
+				"action2Text": "",
 				"action2Type": "Transparent",
+				"action3Text": "",
 				"action3Type": "Transparent",
 				"showSeparators": "All",
 				"alternateRowColors": false,
@@ -93,6 +103,7 @@
 				"usage": "BOTH"
 			}
 		],
+		"fieldsSel": [],
 		"fieldsRun": [
 			{
 				"enableFilter": true,
@@ -138,16 +149,28 @@
 			"id": "c514779d-545a-4fa5-ac15-4f8b9273a91d",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
 			"inclusions": {},
 			"exclusions": {}
 		}
 	},
 	"name": "demandboard_admin_status",
+	"description": "",
+	"group": "",
 	"type": "C",
 	"connectorid": "7314ef49-8474-48cd-9cb9-3895d2b13ce3",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
 	"ver": "22.11.5.654",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
 }

@@ -5,6 +5,7 @@
 	"settings": {
 		"properties": {
 			"report": {
+				"iconButtonClose": "",
 				"textButtonClose": "Close",
 				"typeButtonClose": "Attention",
 				"enableValues": true,
@@ -137,7 +138,8 @@
 				"lookupTable": "demandboard_status",
 				"lookupFieldKey": "name",
 				"lookupFieldText": "name",
-				"lookupShowOnlyText": true
+				"lookupShowOnlyText": true,
+				"default": ""
 			}
 		],
 		"fieldsRun": [
@@ -253,11 +255,20 @@
 		"id": "1f7669fb-b53a-4fe5-8690-1b60c6848050"
 	},
 	"name": "demandboard_items_analytic",
+	"description": "",
+	"group": "",
 	"type": "C",
 	"connectorid": "80f27a62-bc75-48a3-a07f-cb9177cedb43",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
 	"ver": "22.11.6.1857",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_bi",
-	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0"
+	"package": "b72e9368-0709-4465-97a6-5be01b90e3f0",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
 }
